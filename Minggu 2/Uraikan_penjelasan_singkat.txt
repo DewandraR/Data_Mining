@@ -1,8 +1,0 @@
-Tahapan preprocessing dan analisa data pada data komentar review game CSGO yang dilakukan dapat diuraikan sebagai berikut:
-1.	Pengumpulan data: Data komentar review game CSGO diambil dari website Steam. Pengumpulan data dilakukan dengan menggunakan web scraping menggunakan library BeautifulSoup pada bahasa pemrograman Python.
-2.	Pembersihan data: Data yang sudah dikumpulkan kemudian dibersihkan dari noise atau gangguan-gangguan pada data seperti tanda baca, tautan URL, karakter khusus, dan lainnya. Pembersihan data ini dilakukan dengan menggunakan library re (regular expression) pada bahasa pemrograman Python.
-3.	Pengelompokan data: Data yang sudah dibersihkan kemudian dikelompokkan sesuai dengan kategori tertentu. Pada tahap ini, data komentar review game CSGO dikelompokkan menjadi 3 kategori yaitu komentar positif, komentar negatif, dan komentar netral.
-4.	Visualisasi data: Data kemudian divisualisasikan menggunakan library Matplotlib pada bahasa pemrograman Python. Pada tahap ini dilakukan analisa terhadap distribusi data, tren data, dan pola data.
-5.	Analisa data: Data dianalisa untuk mengetahui karakteristik dari komentar review game CSGO, termasuk pola-pola yang muncul dalam setiap kategori. Pada tahap ini dilakukan analisa statistik menggunakan library Pandas pada bahasa pemrograman Python. Dari analisa ini dapat diketahui informasi seperti frekuensi kemunculan kata, jumlah komentar positif, negatif, dan netral, serta kata-kata yang sering muncul dalam setiap kategori.
-6.	Pemodelan data: Data dapat dimodelkan menggunakan teknik-teknik data mining seperti clustering dan sentiment analysis. Namun, pada tahapan ini tidak dilakukan pemodelan data.
-
